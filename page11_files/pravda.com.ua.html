@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<!-- saved from url=(0080)https://orbit4.lun.ua/html/pravda.com.ua.html?temp=7bafb1a1&random=1554300703584 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="cleartype" content="on">
+  
+  <title>Акции новостроек</title>
+  <!-- Описание стилей -->
+  <link href="./css" rel="stylesheet" type="text/css">
+  <style>
+	body {
+	    margin: 0;
+	    color: #333333;
+	    font-family: "Open Sans", Tahoma, sans-serif;
+	    font-size: 13px;
+	    background-color: #fff;
+	    line-height: 1.4;
+	}
+
+	ul {
+	    margin: 0;
+	    padding: 0;
+	    list-style: none;
+	}
+
+	input[type=text], textarea {
+	    background-color: #fff;
+	    color: #343434;
+	    font-family: "Open Sans", Tahoma, sans-serif;
+	    font-size: 13px;
+	}
+
+	img {
+	    border: 0;
+	}
+
+	a {
+	    outline-style: none;
+	    color: #68b;
+	}
+
+	a:hover {
+	    cursor: pointer;
+	    text-decoration: none;
+	}
+	a.nodecor{
+	    text-decoration: none;
+	}
+	a.nodecor:hover{
+	    text-decoration: none;
+	}
+	.container{
+	    background: #F5F5F5;
+	    padding: 8px 10px 10px;
+	    height: 255px;
+	    box-sizing: border-box;
+	}
+	.header{
+	    text-align: center;
+	    font-size: 20px;
+	    color: #2E2E2C;
+	    font-family: Roboto, "Open Sans", Tahoma,sans-serif;
+	}
+	.header__logo{
+	    display: inline-block;
+	    margin-left: 4px;
+	    vertical-align: top;
+	    background-repeat: no-repeat;
+	    background-image: url('data:image/png;base64,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');
+	    background-size: auto 100%;
+	    height: 35px;
+	    width: 81px;
+	    margin-top: -2px;
+	}
+
+	@media all and (max-width: 480px) {
+	    .header__logo {
+	        height: 30px;
+	        
+	    }
+	}
+	.header__logo_no-flag{
+	    width: 50px;
+	    height: 20px;
+	    background: url('data:image/png;base64,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');
+	    background-size: 100%;
+	    margin-top: 3px;
+	    margin-right: 5px;
+	}
+	.action-list-center{
+	    max-width: 800px;
+	    margin: 0 auto;
+	}
+	.action-list{
+	    margin-left: -10px;
+	    margin-right: -10px;
+	}
+	.action-item{
+	    float: left;
+	    padding: 8px 10px 10px;
+	    width: 33.333333%;
+	    box-sizing: border-box;
+	}
+	.action-item-inner{
+	    position: relative;
+	    overflow: hidden;
+	    height: 200px;
+	    border-radius: 2px;
+	    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	}
+	.action-item__photo{
+	    position: absolute;
+	    height: 100%;
+	    width: 200%;
+	    left: -50%;
+	    top: 0;
+	    text-align: center;
+	    font-size: 0;
+	    line-height: 0;
+	}
+	.action-item__photo img{
+	    height: 200px;
+	    width: auto;
+	}
+	.action-item-shadow{
+	    position: absolute;
+	    left: 0px;
+	    bottom: 0px;
+	    width: 100%;
+	    height: 100%;
+	    background: none;
+	    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0),rgba(0,0,0,.4), rgba(0,0,0,.6));
+	    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0)), to(rgba(0,0,0,.6)));
+	    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0),rgba(0,0,0,.4),  rgba(0,0,0,.6));
+	    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0),rgba(0,0,0,.4),  rgba(0,0,0,.6));
+	    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0),rgba(0,0,0,.4), rgba(0,0,0,.6));
+	    background-repeat: repeat-x;
+	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#ff000000', GradientType=0);
+	    background-color: transparent;
+	}
+	.action-item__label{
+	    position: absolute;
+	    left: 8px;
+	    top: 8px;
+	    padding: 2px 6px;
+	    border-radius: 2px;
+	    background: #ff9800;
+	    color: #ffffff;
+	    font-size: 13px;
+	    z-index: 3;
+	    display: block;
+	    line-height: 16px;
+	}
+	.action-item__content{
+	    position: absolute;
+	    bottom: 0;
+	    left: 0;
+	    width: 100%;
+	}
+	.action-item__text{
+	    width: 80%;
+	    height: 75px;
+	    box-sizing: border-box;
+	    padding: 8px 8px 16px 8px;
+	    color: #2E2E2C;
+	    font-size: 12px;
+	    overflow: hidden;
+	    border-radius: 0 2px 0 0;
+	    background: #ffffff;
+	    position: relative;
+	}
+
+	.action-item__title{
+	    padding: 8px;
+	    font-size: 15px;
+	    font-weight: bold;
+	    color: #ffffff;
+	    margin: 0;
+	}@media all and (max-width: 480px) {
+	    .header{
+	        font-size: 18px;
+	    }
+	}
+</style>
+  <style>
+	@media all and (max-width: 630px) {
+	    .action-item {
+	        width: 50%;
+	    }
+	}
+
+	@media all and (max-width: 480px) {
+	    .header{
+	        font-size: 18px;
+	    }
+	}
+
+	@media all and (max-width: 420px) {
+	    .action-item {
+	        width: 100%;
+	        max-width: 280px;
+	        margin: 0 auto;
+	        float: none;
+	    }
+	}
+
+	.action-item-inner {
+	    background-size: cover;
+	    background-position: 30%;
+	    background-repeat: no-repeat;
+	}
+
+	.action-item__title {
+	    position: relative;
+	    text-shadow: 1px 1px 2px black;
+	    z-index: 3;
+	}
+
+	.action-item__text {
+	    padding: 8px 8px 0;
+	    font-size: 14px;
+	    border-radius: 0 2px 0 0;
+	    color: white;
+	    display: -webkit-box;
+	    -webkit-box-orient: vertical;
+	    -webkit-line-clamp: 2;
+	    text-overflow: ellipsis;
+	    height: 40px;
+	    background: none;
+	    width: auto;
+	    box-sizing: content-box;
+	}
+
+	.action-item__label {
+	    left: 0;
+	    bottom: 48px;
+	    border-radius: 0 2px 2px 0;
+	    font-weight: 600;
+	    top: initial;
+	}
+
+
+
+	.action-item-shadow--bottom {
+	    height: 80px;
+	    background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0),rgba(0,0,0,0.5), rgba(0,0,0,0.7));
+	    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0)), to(rgba(0,0,0,.7)));
+	    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0),rgba(0,0,0,0.5), rgba(0,0,0,0.7));
+	    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0),rgba(0,0,0,0.5), rgba(0,0,0,0.7));
+	    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0),rgba(0,0,0,0.5), rgba(0,0,0,0.7));
+	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#ff000000', GradientType=0);
+	}
+
+	.action-item-shadow--top {
+	    height: 80px;
+	    top: 0;
+	    bottom: initial;
+	    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0),rgba(0,0,0,.2), rgba(0,0,0,.6));
+	    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0)), to(rgba(0,0,0,.6)));
+	    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0),rgba(0,0,0,.2), rgba(0,0,0,.6));
+	    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0),rgba(0,0,0,.2), rgba(0,0,0,.6));
+	    background-image: linear-gradient(to top, rgba(0, 0, 0, 0),rgba(0,0,0,.2), rgba(0,0,0,.6));
+	    bottom: initial;
+	    top: 0;
+	}
+
+	@media (max-width: 420px){
+	    .action-item {
+	        max-width: 100%;
+	    }
+	    .action-item__title {
+	        font-size: 16px;
+	    }
+	    .action-item__text{
+	        font-size: 15px;
+	        height: 42px;
+	        -webkit-line-clamp: 2;
+	      }
+	    .action-item__label {
+	        bottom: 50px;
+	    }
+	    .action-item-shadow--bottom{       
+	        background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0),rgba(0,0,0,0.5), rgba(0,0,0,1));
+	        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0)), to(rgba(0,0,0,1)));
+	        background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0),rgba(0,0,0,0.5), rgba(0,0,0,1));
+	        background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0),rgba(0,0,0,0.5), rgba(0,0,0,1));
+	        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0),rgba(0,0,0,0.5), rgba(0,0,0,1));
+	    }    
+	}
+
+	 .dev-logo {
+	    height: 20px;
+	    width: 20px;
+	    vertical-align: bottom;
+	    margin-right: 4px;
+	    border: solid 1px white;
+	    border-radius: 50%;
+	}
+</style>
+
+
+  <style>   
+    
+    .container {
+      height: 270px;
+      position: relative;
+    }
+    
+    .action-item-inner {
+      height: 215px;
+    }
+
+    .action-item__photo img {
+      height: 220px;
+      width: auto;
+    }
+    .fallback {
+      height: 100%;
+      background-color: #F5F5F5;
+      text-align: center;
+      display: block;
+    }
+    .fallback img {
+      vertical-align: top;
+      max-width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    @media (min-width: 630px){
+      .action-item {
+          width: 50%;
+      }
+    }
+    .action-item a {
+        text-decoration: none !important;
+    }
+    .content-placeholder {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: 20;
+    }
+    .hide {
+      display: none;
+    }
+    .action-item__photo {
+      width: 100% !important;
+      left: 0px !important;
+    }
+    .action-item__photo img {
+      min-width: 100%;
+      min-height: 100%;
+    }
+    .action-item {
+      position: relative;
+    }
+    .developer-title-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: row;
+    }
+    .developer-title-wrap img{
+      height: 20px;
+      width: 20px;
+      vertical-align: bottom;
+      margin-right: 4px;
+      border: solid 1px white;
+      border-radius: 50%;
+    }
+    .developer-title-wrap span {
+      font-size: 15px;
+      margin-left: 4px;
+      color: #ffffff;
+      text-shadow: 1px 1px 2px black;
+      font-weight: normal;
+    }
+    .developer-title-wrap.title-city span{
+      margin-left: 0px;
+    }
+  </style>  <!--Определяем block_id и region-->
+  <script async="" src="./analytics.js"></script><script>
+    var getParams = function (query) {
+      var result = {};
+      if (query.indexOf('?') !== -1) query = query.split('?')[1];
+      decodeURI(query).split('&').forEach(function (pair) {
+        var keyValue = pair.split('=');
+        result[keyValue[0]] = decodeURIComponent(keyValue[1]);
+      });
+      return result;
+    }
+    var block_id = getParams(document.location.search).blockID || 'pravda.com.ua';
+    var region = getParams(document.location.search).region || '';
+  </script>
+  <!--DFP-->
+  <script async="async" src="./gpt.js"></script>
+  <script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+      function getCookie(name) {
+        var value = "; " + document.cookie;
+        var parts = value.split("; " + name + "=");
+        if (parts.length == 2) return parts.pop().split(";").shift();
+      }
+      var building_id = getCookie("building_ids");
+      building_id = building_id ? building_id.split(",") : [];
+  </script>
+  <script>
+  function getCookieAdSegment(name) {
+    var matches = document.cookie.match(new RegExp(
+      "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+    ));
+    return matches ? decodeURIComponent(matches[1]) : undefined;
+  }
+
+  function setCookie(name, value, options) {
+    options = options || {};
+    var expires = options.expires;
+    if (typeof expires == "number" && expires) {
+      var d = new Date();
+      d.setTime(d.getTime() + expires * 1000);
+      expires = options.expires = d;
+    }
+    if (expires && expires.toUTCString) {
+      options.expires = expires.toUTCString();
+    }
+    value = encodeURIComponent(value);
+    var updatedCookie = name + "=" + value;
+    for (var propName in options) {
+      updatedCookie += "; " + propName;
+      var propValue = options[propName];
+      if (propValue !== true) {
+        updatedCookie += "=" + propValue;
+      }
+    }
+    document.cookie = updatedCookie;
+  }
+
+  var segment = getCookieAdSegment('segment');
+  if (!segment) {
+    segment = Math.floor(Math.random() * 2) + 1;
+    var date = new Date();
+    date.setFullYear(date.getFullYear() + 2);
+    setCookie('segment', segment, {
+      path: '/',
+      domain: 'lun.ua',
+      expires: date 
+    });
+  }
+  </script>
+  
+
+  <script>
+    googletag.cmd.push(function() {
+      googletag.defineSlot('\/1021027\/_pravdaBK1', ['fluid'], 'div-gpt-ad-1538993623250-0').setTargeting('building_ids', building_id).setTargeting('region', region).addService(googletag.pubads());
+      googletag.defineSlot('\/1021027\/_pravdaBK2', ['fluid'], 'div-gpt-ad-1538993623250-1').setTargeting('building_ids', building_id).setTargeting('region', region).addService(googletag.pubads());
+      googletag.pubads().enableSingleRequest();
+      googletag.enableServices();
+    });
+  </script>
+  <!--End of DFP-->
+  <!-- Google Analytics -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-6260742-30', 'auto');
+    ga('set', 'title', block_id);
+    ga('require', 'ec');
+    ga('set', 'customTask', function (model) {
+      model.set('dimension1', model.get('clientId'));
+    });
+  </script>
+  <!-- End Google Analytics -->
+</head>
+
+<body marginwidth="0" marginheight="0">
+  <div class="container">
+    
+    <div class="content-placeholder">
+        <a onclick="ga(&#39;ec:addProduct&#39;, { &#39;name&#39;: &#39;-&#39;, &#39;brand&#39;: &#39;-&#39;}); ga(&#39;ec:setAction&#39;, &#39;click&#39;, {list: block_id}); ga(&#39;set&#39;, &#39;customTask&#39;, function(model) { model.set(&#39;dimension1&#39;, model.get(&#39;clientId&#39;)); }); ga(&#39;send&#39;, &#39;event&#39;, block_id, &#39;click&#39;, &#39;-&#39;, {&#39;dimension3&#39;: document.referrer });" href="https://novostroyki.lun.ua/%D0%B0%D0%BA%D1%86%D0%B8%D0%B8-%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BA-%D0%BA%D0%B8%D0%B5%D0%B2%D0%B0?utm_source=pravda.com.ua&amp;utm_medium=referral&amp;utm_campaign=banner" class="fallback" target="_blank"><img src="./lun.png"></a>
+    </div>
+    
+    <div class="container-content hide">
+      <div class="header">
+        Акції новобудов на <a href="https://novostroyki.lun.ua/%D0%B0%D0%BA%D1%86%D0%B8%D0%B8-%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BA-%D0%BA%D0%B8%D0%B5%D0%B2%D0%B0?utm_source=pravda.com.ua&amp;utm_medium=referral&amp;utm_campaign=header" class="header__logo" rel="nofollow" target="_blank"></a>
+      </div>
+      <div class="action-list-center">
+        <div class="action-list">
+          <!-- /1021027/_pravdaBK1 -->
+          <div class="action-item" id="/1021027/_pravdaBK1">
+            <div id="div-gpt-ad-1538993623250-0">
+            <script>
+              googletag.cmd.push(function() { googletag.display('div-gpt-ad-1538993623250-0'); });
+            </script>
+            </div>
+          </div>
+
+          <!-- /1021027/_pravdaBK2 -->
+          <div class="action-item" id="/1021027/_pravdaBK2">
+            <div id="div-gpt-ad-1538993623250-1">
+            <script>
+              googletag.cmd.push(function() { googletag.display('div-gpt-ad-1538993623250-1'); });
+            </script>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function(){
+      var count = 0;
+      var selector = '.action-item';
+      var targetCount = document.querySelectorAll(selector).length;
+      var timeout = false;
+
+      window.addEventListener('message', function (event) {
+        var data = event.data;
+        if (data.message === 'adContentAvailable') {
+          var container = document.getElementById(data.adUnit);
+          container.innerHTML = data.content;
+          [].forEach.call(container.querySelectorAll('a'), function(link) {
+            link.addEventListener('click', function() {
+              ga('ec:addProduct', {name: data.building_id, brand: data.title, price: data.price, quantity: 1 });
+              ga('ec:setAction', 'click', {list: block_id});
+              ga('send', 'event', block_id, 'click', data.building_id, {dimension2: segment, dimension3: document.referrer, metric1: data.price });
+            });
+          });
+
+          ga('ec:addImpression', {
+                name: data.building_id,
+                brand: data.title,
+                list: block_id,
+                price: data.price,
+                quantity: 1 
+              });
+          count += 1;
+
+          if( data.developer_image_url && data.developer_image_url.length > 0) {
+            addDeveloperLogo(container, data.developer, data.developer_image_url);
+          } else {
+            addCity(container, data.city);
+          }
+          
+          if (count === targetCount) {
+            document.querySelector('.container-content').classList.remove('hide');
+            document.querySelector('.content-placeholder').classList.add('hide');
+            if(timeout) {
+              clearTimeout(timeout);
+              ga('send', 'pageview', {dimension2: segment, dimension3: document.referrer, dimension4: 'No' });
+            }
+          }
+        }
+      }, false);
+
+      function addDeveloperLogo(container, title, img) {
+        const wrap = container.querySelector('.action-item__title');
+        const item = document.createElement('div');
+        item.classList.add('developer-title-wrap');
+        item.innerHTML = '<img src="'+img+'"><span>'+title+'</span>';
+        wrap.appendChild(item);
+      }
+
+      function addCity(container, city) {
+        const wrap = container.querySelector('.action-item__title');
+        const item = document.createElement('div');
+        item.classList.add('developer-title-wrap');
+        item.classList.add('title-city');
+        item.innerHTML = '<span>'+city+'</span>';
+        wrap.appendChild(item);
+      }
+      
+      function adsBlocked(callback){
+        var testURL = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
+        var myInit = {
+          method: 'HEAD',
+          mode: 'no-cors'
+        };
+        var myRequest = new Request(testURL, myInit);
+        fetch(myRequest).then(function(response) {
+          return response;
+        }).then(function(response) {
+          callback(false);
+        }).catch(function(e){
+          callback(true);
+        });
+      }
+
+      document.addEventListener('DOMContentLoaded', function (){
+        timeout = setTimeout(()=>{
+          // ga('send', 'pageview' {dimension4: 'Yes' });
+          ga('send', 'pageview', {dimension2: segment, dimension3: document.referrer, dimension4: 'No' }); //Когда прошло 2 секунды
+          timeout = false;
+        }, 2 * 1000);
+        adsBlocked(function(blocked){
+          if(blocked){
+            if(timeout) {
+              clearTimeout(timeout);
+              ga('send', 'pageview', {dimension2: segment, dimension3: document.referrer, dimension4: 'Yes' });
+            }
+          }
+        })
+      }, false);
+      
+    }());
+  </script>
+
+
+</body></html>
